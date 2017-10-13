@@ -1,0 +1,15 @@
+D:\SnakeAndLadder>node server\main.js
+Error: Cannot find module 'ejs'
+    at Function.Module._resolveFilename (module.js:527:15)
+    at Function.Module._load (module.js:476:23)
+    at Module.require (module.js:568:17)
+    at require (internal/module.js:11:18)
+    at new View (D:\SnakeAndLadder\node_modules\express\lib\view.js:81:14)
+    at Function.render (D:\SnakeAndLadder\node_modules\express\lib\application.js:570:12)
+    at ServerResponse.render (D:\SnakeAndLadder\node_modules\express\lib\response.js:1008:7)
+    at D:\SnakeAndLadder\server\main.js:5:9
+    at Layer.handle [as handle_request] (D:\SnakeAndLadder\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\SnakeAndLadder\node_modules\express\lib\router\route.js:137:13)
+
+Solution :
+   npm install --save ejs

@@ -1,0 +1,17 @@
+{
+  "name": "snakeandladder",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Manpreet Singh <manpreet.singh@autodesk.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/JattMannu/SnakeAndLadder",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
